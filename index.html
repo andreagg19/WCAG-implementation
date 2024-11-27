@@ -81,17 +81,20 @@
         </table>
     </section>
 
-    <!-- Donation Form -->
+        <!-- Donation Form -->
     <section id="donate">
         <h3>Make a Contribution</h3>
         <p>Every dollar counts. Help support Walter’s health journey by making a contribution.</p>
         <form id="donationForm" onsubmit="handleSubmit(event)">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input placeholder="John" type="text" id="name" name="name" required>
+
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input placeholder="example@email.com" type="email" id="email" name="email" required>
+
             <label for="amount">Amount:</label>
-            <input type="number" id="amount" name="amonut" required>
+            <input placeholder="12345" type="number" id="amount" name="amonut" required>
+
             <img src="https://www.shutterstock.com/image-vector/rivne-ukraine-may-25-2023-260nw-2308307091.jpg" alt="Payment logos" class="center2">
             <button type="submit">Donate</button>
         </form>
